@@ -38,7 +38,7 @@ export default class AboutSection extends Component {
                    <h5>The most experienced Digital Marketing team in the space</h5>
                </div>
                <div className="col-lg-5 offset-lg-0">
-                  <img  height="150" src="../img/why_us2.png"/>
+                  <img  height="150" src="../img/why_us2.png" />
                </div>
            </div>
        </div>

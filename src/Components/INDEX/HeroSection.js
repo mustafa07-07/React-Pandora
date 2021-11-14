@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 export default class HeroSection extends Component {
     render() {
@@ -16,8 +16,7 @@ export default class HeroSection extends Component {
                     autoplay
                     loop
                     style={{  }}
-                    // src="https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json"
-                   //  src="https://assets9.lottiefiles.com/packages/lf20_hytsx9gs.json"
+              
                   src="https://assets7.lottiefiles.com/packages/lf20_lm7s4qvw.json"
 
                      ></Player>

@@ -4,6 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer className="footer-section">
+				<hr/>
 		<div className="container">
 			<div className="row spad">
 				<div className="col-md-6 col-lg-3 footer-widget">

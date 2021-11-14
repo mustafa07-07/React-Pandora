@@ -1,14 +1,13 @@
 import React from 'react'
 import AboutSection from '../ABOUT/AboutSection'
 import PressRelease from './PressRelease'
-import FeauturedSection from './FeauturedSection'
 import Footer from '../FOOTER/Footer'
 import Header from '../HEADER/Header'
 import HeroSection from './HeroSection'
-import NewsletterSection from './NewsletterSection'
 import WhyUs from './WhyUs'
 import CoreValues from './CoreValues'
 import ContactForm from '../CONTACT/ContactForm'
+import OurMarketing from './OurMarketing'
   
 export default function Index() {
     return (
@@ -16,11 +15,12 @@ export default function Index() {
         <Header />
         <HeroSection />
         <AboutSection />
-        <WhyUs/>
+        <OurMarketing />
         <CoreValues/>
-        <FeauturedSection />
-        <NewsletterSection />
         <PressRelease />
+        <WhyUs/>
+       
+      
         <ContactForm/>
         <Footer />   
         </div>

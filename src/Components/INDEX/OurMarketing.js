@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class FeauturedSection extends Component {
+export default class OurMarketing extends Component {
     render() {
         return (
             <section className="features-section spad">

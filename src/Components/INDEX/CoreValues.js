@@ -7,7 +7,7 @@ export default class CoreValues extends Component {
             <div className="container ">
                 <div className="row">
                 <div className="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
-                        <img height="325" src="../img/our_values.png"/>
+                        <img  alt="core values" height="325" src="../img/our_values.png"/>
                     </div>
                     <div className="text-center col-lg-7 text-wrap blockquote">
                         <h2>OUR CORE VALUES</h2>

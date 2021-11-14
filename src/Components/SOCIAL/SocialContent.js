@@ -16,7 +16,7 @@ export default class SocialContent extends Component {
                  </p>
                 </div>
                 <div className="about-img">
-                <img src="../img/social.png" alt="" />
+                <img alt="social" src="../img/social.png" alt="" />
               </div>
               </div>   
             </div>
@@ -47,7 +47,7 @@ export default class SocialContent extends Component {
             <div className="container">
               <div className="row"> 
               <div className="text-white col-lg-5 about-text newsletter-text">
-                   <img src="../img/social3.png"/>
+                   <img alt="social" src="../img/social3.png"/>
 </div> 
                 <div className="col-lg-7 about-text">
                 <p>
@@ -86,7 +86,7 @@ export default class SocialContent extends Component {
                  </p>
                  </div>
                  <div className="text-white col-lg-5 about-text newsletter-text">
-                   <img src="../img/social4.png"/>
+                   <img alt="social" src="../img/social4.png"/>
 </div> 
                  </div>
                  

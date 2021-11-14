@@ -4,6 +4,7 @@ export default class SeoContent extends Component {
     render() {
         return (
             <div>
+				
             <section className="about-section spad">
             <div className="container">
               <div className="row">

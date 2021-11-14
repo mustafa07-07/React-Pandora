@@ -1,4 +1,3 @@
-file:///c%3A/Users/Mustafa/Desktop/projeler/src/Components/CONTACT/ContactForm.js {"mtime":1636828978625,"ctime":1636825258514,"size":7167,"etag":"37pmqfq987e6","orphaned":false,"typeId":""}
 import axios from 'axios';
 import React, { Component } from 'react'
 import swal from 'sweetalert';
@@ -151,4 +150,9 @@ axios(config)
 
                                 </div>
                             </div>
-   
+   </form>
+   </div>
+   </div>
+   </section>
+   </div>
+        )}}
