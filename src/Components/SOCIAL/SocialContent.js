@@ -16,7 +16,7 @@ export default class SocialContent extends Component {
                  </p>
                 </div>
                 <div className="about-img">
-                <img alt="social" src="../img/social.png" alt="" />
+                <img alt="social" src="../img/social.png"/>
               </div>
               </div>   
             </div>
@@ -38,7 +38,7 @@ export default class SocialContent extends Component {
                 
                  </div>
                  <div className="text-white col-lg-5 about-text newsletter-text">
-                   <img src="../img/social2.png"/>
+                   <img alt="Social" src="../img/social2.png"/>
 </div>
                  </div>
                  </div>
@@ -66,6 +66,7 @@ export default class SocialContent extends Component {
             <div className="container">
               <div className="row">  
                 <div className="text-white col-lg-7 about-text">
+                  
                 <p>
                  SMO (Social Media Optimization) should be part of a broader inbound marketing strategy  SMO corresponds to all the non-paid actions taken to reinforce your presence on social media. At Pandora, we will manage your media channels to increase your community, interact and engage with your followers, provide you with valuable users' feedbacks, and create new leads.
                  </p>

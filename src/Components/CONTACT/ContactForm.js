@@ -6,7 +6,7 @@ export default class ContactForm extends Component {
     constructor() {
         super();
         this.state = {
-          to: 'mustafaaliyildirim95@gmail.com',
+          to: 'info@agencypandora.com',
           name: '',
           lastName: '',
           company: '',
@@ -19,7 +19,7 @@ export default class ContactForm extends Component {
       onSubmit = (e) => {
         e.preventDefault();
         const { to,name, lastName, company,webSite,phone,eMail,message } = this.state;
-        const datas = JSON.stringify({"to":to,"name":name,"lastName":lastName,"eMail":eMail,"phone":phone,"company":company,"webSite":webSite,"message":message});
+        let datas = JSON.stringify({"to":to,"name":name,"lastName":lastName,"eMail":eMail,"phone":phone,"company":company,"webSite":webSite,"message":message});
 
 const config = {
   method: 'post',
@@ -31,7 +31,15 @@ const config = {
 };
 axios(config)
 .then(function (response) {
-    swal("Success", "Your Message Has Been Successfully Sent. We Will Contact You As Soon As Possible", "success")
+    swal("Success", "Your Message Has Been Successfully Sent. We Will Contact You As Soon As Possible", "success");
+    this.setState={ to: 'info@agencypandora.com',
+    name: '',
+    lastName: '',
+    company: '',
+    webSite: '',
+    phone: '',
+    eMail: '',
+    message: '',}
 })
 .catch(function (error) {
     swal("Error", "The message sending is incorrect. Please try again.", "error")

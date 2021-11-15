@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer className="footer-section">
-				<hr/>
+				<hr/>rel="noreferrer" 
 		<div className="container">
 			<div className="row spad">
 				<div className="col-md-6 col-lg-3 footer-widget">
@@ -36,10 +36,10 @@ export default class Footer extends Component {
 				<div className="pl-3 col-md-6 col-lg-3 footer-widget pl-lg-5">
 					<h5 className="widget-title">Follow us on social media</h5>
 					<div className="social">
-						<a href="https://facebook.com"  target="_blank" className="facebook"><i className="fa fa-facebook"></i></a>
-						<a href="https://instagram.com" target="_blank" className="instagram"><i className="fa fa-instagram"></i></a>
-						<a href="https://twitter.com"   target="_blank" className="twitter"><i className="fa fa-twitter"></i></a>
-						<a href="https://linkedin.com"   target="_blank" className="linkedin"><i className="fa fa-linkedin"></i></a>
+						<a href="https://facebook.com"  rel="noreferrer" target="_blank" className="facebook"><i className="fa fa-facebook"></i></a>
+						<a href="https://instagram.com" rel="noreferrer" target="_blank" className="instagram"><i className="fa fa-instagram"></i></a>
+						<a href="https://twitter.com"   rel="noreferrer" target="_blank" className="twitter"><i className="fa fa-twitter"></i></a>
+						<a href="https://linkedin.com"   rel="noreferrer" target="_blank" className="linkedin"><i className="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</div>

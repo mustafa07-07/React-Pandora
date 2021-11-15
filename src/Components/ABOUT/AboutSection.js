@@ -38,7 +38,7 @@ export default class AboutSection extends Component {
                    <h5>The most experienced Digital Marketing team in the space</h5>
                </div>
                <div className="col-lg-5 offset-lg-0">
-                  <img  height="150" src="../img/why_us2.png" />
+                  <img alt="Why Us" height="150" src="../img/why_us2.png" />
                </div>
            </div>
        </div>
@@ -47,7 +47,7 @@ export default class AboutSection extends Component {
        <div className="container">
            <div className="row">
            <div className="col-lg-5 offset-lg-0">
-                  <img  height="250" src="../img/intro.png"/>
+                  <img alt="Intro" height="250" src="../img/intro.png"/>
                </div>
                <div className="col-lg-7 newsletter-text">
                    <h2>Introduction</h2>
@@ -73,7 +73,7 @@ Our most outstanding achievements will be a result of continuous feedback, clear
                    </p>
                </div>
                <div className="col-lg-5 offset-lg-0">
-                  <img  height="250" src="../img/vision.png"/>
+                  <img alt="Vision" height="250" src="../img/vision.png"/>
                </div>
            </div>
        </div>

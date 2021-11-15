@@ -14,7 +14,7 @@ export default class WhyUs extends Component {
                     <p>As a full-service public relations, marketing, creative, and data agency with a full roster of forward-thinking B2B clients, we understand how to take a seemingly complex topic and make it eminently understandable and persuadable. We create content that gets shared, messages that resonate, and help your team become credible, industry-leading voices.</p>
                     </div>
                     <div className="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
-                        <img src="../img/why_us2.png"/>
+                        <img alt="Why Us" src="../img/why_us2.png"/>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import $ from "jquery";
 
@@ -10,17 +10,14 @@ export default class Header extends Component {
     return (
       <header className="clearfix header-section">
         <div className="container-fluid">
-          
           <Link to="/">
             <img style={{float:'left',height:225,width:225,position:'relative',top:-80}}  src="../img/logo2.png" alt="" />
-             
           </Link>
-           
-          <a onClick={() => this.handleClick()}>
+          <span onClick={() => this.handleClick()}>
             <div className="responsive-bar">
               <i className="fa fa-bars"></i>
             </div>
-          </a>
+          </span>
 
           <nav className="main-menu">
             <ul className="menu-list">
