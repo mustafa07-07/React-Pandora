@@ -35,7 +35,7 @@ export default class HeroSection extends Component {
               <div className="float-left p-5">
         
                 <div  style={{ margin:1, display:'block'}}>
-                <Link to="/Influencer" >
+                <Link to="/Contact" >
                   <AnimatedButton
                     color="success"
                     animationDuration={0.5}
