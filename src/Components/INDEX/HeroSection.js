@@ -5,6 +5,7 @@ import Typing from 'react-typing-animation';
 import AnimatedButton from "react-animated-buttons";
 
 import { Player } from "@lottiefiles/react-lottie-player";
+import { Link } from "react-router-dom";
 
 export default class HeroSection extends Component {
   render() {
@@ -34,6 +35,7 @@ export default class HeroSection extends Component {
               <div className="float-left p-5">
         
                 <div  style={{ margin:1, display:'block'}}>
+                <Link to="/Influencer" >
                   <AnimatedButton
                     color="success"
                     animationDuration={0.5}
@@ -41,15 +43,17 @@ export default class HeroSection extends Component {
                   >
                    <i className="fa fa-envelope"></i>   Contact Us
                   </AnimatedButton>
-                 
+                  </Link>
+                  <Link to="/Influencer" >
                   <AnimatedButton
                   className="btn btn-lg btn-outline-secondary"
                     color="warning"
                     animationDuration={0.5}
                     animationType="pulse"
                   >
-                   <i className="fa fa-play"></i>   Influencer
+                   <i className="fa fa-play"></i>   Influencer Application 
                   </AnimatedButton>
+                  </Link>
                 </div>
               </div>
             </div>

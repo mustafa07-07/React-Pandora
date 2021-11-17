@@ -9,21 +9,33 @@ export default class ContactForm extends Component {
           to: 'mustafaaliyildirim95@gmail.com',
           name: '',
           lastName: '',
-          company: '',
-          webSite: '',
-          phone: '',
+          account: '',
           eMail: '',
-          message: '',
+          telegram: '',
+          range:'',
+          reference: '',
+          analyse: '',
         };
       }
+   
       onSubmit = (e) => {
         e.preventDefault();
-        const { to,name, lastName, company,webSite,phone,eMail,message } = this.state;
-        let datas = JSON.stringify({"to":to,"name":name,"lastName":lastName,"eMail":eMail,"phone":phone,"company":company,"webSite":webSite,"message":message});
+        const { to,name, lastName, account,range,eMail,telegram,reference,analyse } = this.state;
+        let datas = JSON.stringify({
+          "to":to,
+          "name":name,
+          "lastName":lastName,
+          "account":account,
+          "eMail":eMail,
+          "range":range,
+          "telegram":telegram,
+          "reference":reference,
+          "analyse":analyse
+        });
 
 const config = {
   method: 'post',
-  url: 'https://nodejsemailsender.herokuapp.com/mail/',
+  url: 'https://nodejsemailsender.herokuapp.com/inf',
   headers: { 
     'Content-Type': 'application/json'
   },
@@ -49,10 +61,11 @@ axios(config)
         
       }
     render() {
-        const { name, lastName, company,webSite,phone,eMail,message } = this.state;
-
+      const { name, lastName, range,account,eMail,telegram,reference,analyse } = this.state;
+     
         return (
             <div>
+             
                   <section className="contact-page spad">
             <div className="container">
                 <div className="row">
@@ -85,30 +98,17 @@ axios(config)
                                         <span><i className="ti-check"></i></span>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
-                                    <div className="form-group">
-                                        <input 
-                                        required 
-                                        className="check-form" 
-                                        type="text" 
-                                        name="company" 
-                                        value={company}
-                                        onChange={this.onChange} 
-                                        placeholder="Company Name*:"/>
-                                        <span><i className="ti-check"></i></span>
-                                    </div>
-                                </div>
+                           
                                
                                 <div className="col-md-6">
                                     <div className="form-group">
                                         <input 
-                                        required 
                                         className="check-form" 
                                         type="text" 
-                                        name="webSite" 
-                                        value={webSite}
+                                        name="telegram" 
+                                        value={telegram}
                                         onChange={this.onChange}
-                                        placeholder="Web Site: *"/>
+                                        placeholder="Telegram USername*"/>
                                         <span><i className="ti-check"></i></span>
                                     </div>
                                 </div>
@@ -131,27 +131,62 @@ axios(config)
                                         required 
                                         className="check-form" 
                                         type="text" 
-                                        name="phone" 
-                                        value={phone}
+                                        name="reference" 
+                                        value={reference}
                                         onChange={this.onChange}
-                                        placeholder="Phone Number*:"/>
+                                        placeholder="If you have a reference, please specify it.:"/>
+                                        <span><i className="ti-check"></i></span>
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="form-group">
+                                        <input 
+                                        required 
+                                        className="check-form" 
+                                        type="text" 
+                                        name="range" 
+                                        value={range}
+                                        onChange={this.onChange}
+                                        placeholder="Enter your Social Media Follower Range."/>
                                         <span><i className="ti-check"></i></span>
                                     </div>
                                 </div>
                                 <div className="col-md-12">
                                     <div className="form-group">
-                                        <textarea  
-                                       name="message" 
-                                       value={message}
-                                       onChange={this.onChange}
-                                        placeholder="Tell us about your question!"></textarea>
+                                        <input 
+                                        required 
+                                        className="check-form" 
+                                        type="text" 
+                                        name="account" 
+                                        value={account}
+                                        onChange={this.onChange} 
+                                        placeholder="Enter the link to your Social Media Account."/>
+                                        <span><i className="ti-check"></i></span>
                                     </div>
+                                </div>
+                                <div className="col-md-12">
+                                  </div>
+                                <div className="col-md-12">
+                                    <div className="form-group">
+                                        <input 
+                                        required 
+                                        className="check-form" 
+                                        type="text" 
+                                        name="analyse" 
+                                        value={analyse}
+                                        onChange={this.onChange} 
+                                        placeholder="Enter the link where your analysis data is located."/>
+                                        <span><i className="ti-check"></i></span>
+                                    </div>
+                                </div>
+                                <div className="col-md-12">
                                 
                                     <input type="submit"  className="mt-4 site-btn sb-gradients" value="Send" />
-
+                                    
                                 </div>
                             </div>
    </form>
+ 
    </div>
    </div>
    </section>

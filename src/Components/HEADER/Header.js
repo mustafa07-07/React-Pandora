@@ -37,6 +37,9 @@ export default class Header extends Component {
                 <Link to="/About">About</Link>
               </li>
               <li>
+                <Link to="/Influencer">Influencer</Link>
+              </li>
+              <li>
                 <Link to="/Contact">Contact</Link>
               </li>
             </ul>

@@ -12,6 +12,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import Influencer from "./Components/INFLUENCER/Influencer";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route exact={true} path="/Seo">
             <Seo />
+          </Route>
+          <Route exact={true} path="/Influencer">
+            <Influencer />
           </Route>
           <Route exact={true} path="*">
             <Redirect to="/" />
