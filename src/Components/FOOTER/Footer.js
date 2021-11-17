@@ -3,10 +3,10 @@ import {  Link } from "react-router-dom";
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="footer-section">
+            <footer className="footer-section" style={{background: "currentColor"}}>
 				<hr/>
 		<div className="container">
-			<div className="row spad">
+			<div className="row">
 				<div className="col-md-6 col-lg-3 footer-widget">
 					<img src="../img/logo2.png" className="mb-4" alt=""/>
 					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.</p>
@@ -16,6 +16,7 @@ export default class Footer extends Component {
 					<ul>
 					<li><Link exact="true" to="/">Home</Link></li>
 						<li><Link exact="true" to="/Seo">SEO</Link></li>
+						<li><Link exact="true" to="/Influencer">Influencer</Link></li>
 						<li><Link exact="true" to="/Social">Social</Link></li>
 						<li><Link exact="true" to="/About">About Us</Link></li>
 						<li><Link exact="true" to="/Contact">Contact</Link></li>

@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Typing from 'react-typing-animation';
-import AnimatedButton from "react-animated-buttons";
-
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Link } from "react-router-dom";
 
@@ -11,48 +7,40 @@ export default class HeroSection extends Component {
   render() {
     
     return (
-      <section className="hero-section">
-        <div className="container-md">
+     <section className="hero-section">
+    
+    <div className="container-md">
           <div className="row">
             <div className="col-sm-6 hero-text">
               <h2>
                 <span className="mb-2">Pandora </span>
               </h2>
-              <div style={{"height":200}} className="col-sm-12">
+              <div style={{"height":150}} className="col-sm-12">
             
               <Typing
               speed="100ms">
-              <p className="mb-4 text-white lead ">
+              <h3 className="text-white">
                 We believe that each and every idea deserves a shot, and we will
                 market your project real good.
-              </p>
-              <p className="mb-4 text-white lead">
-              WE ARE LEADERS IN CRYPTO INVESTOR MARKETING
-
-              </p>
+              </h3>
+             
               </Typing>
               </div>
-              <div className="float-left p-5">
+              <div className="float-left pl-5">
         
-                <div  style={{ margin:1, display:'block'}}>
+                <div className="flex">
                 <Link to="/Contact" >
-                  <AnimatedButton
-                    color="success"
-                    animationDuration={0.5}
-                    animationType="pulse"
-                  >
+                  <button className="ml-4 btn btn-lg btn-outline-success">
                    <i className="fa fa-envelope"></i>   Contact Us
-                  </AnimatedButton>
+                  </button>
                   </Link>
                   <Link to="/Influencer" >
-                  <AnimatedButton
-                  className="btn btn-lg btn-outline-secondary"
-                    color="warning"
-                    animationDuration={0.5}
-                    animationType="pulse"
+                  <button
+                  className="ml-4 btn btn-lg btn-outline-warning"
+                    
                   >
                    <i className="fa fa-play"></i>   Influencer Application 
-                  </AnimatedButton>
+                  </button>
                   </Link>
                 </div>
               </div>
@@ -68,6 +56,7 @@ export default class HeroSection extends Component {
           </div>
         </div>
       </section>
+     
     );
   }
 }

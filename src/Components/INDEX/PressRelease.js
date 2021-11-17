@@ -40,38 +40,9 @@ export default class BlogSection extends Component {
                     </div>
                    
                    
-               
-                 <h4 className="mt-5">Get in contact today and find out how the Number 1 Crypto Advertising Agency for performance can supercharge your traffic.</h4>
-                <h3 className="mt-5">LET’S MAKE SOMETHING TOGETHER 
-ARE YOU READY
-TO START YOUR PROJECT?
-</h3>
+            
                 </div>
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className="blog-item">
-                            <figure className="blog-thumb">
-                                <img src="../img/blog/1.jpg" alt=""/>
-                            </figure>
-                            
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="blog-item">
-                            <figure className="blog-thumb">
-                                <img src="../img/blog/2.jpg" alt=""/>
-                            </figure>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="blog-item">
-                            <figure className="blog-thumb">
-                                <img src="../img/blog/3.jpg" alt=""/>
-                            </figure>
-                            
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
     

@@ -343,9 +343,8 @@ ol {
 	height: 900px;
 	padding-top: 150px;
 	display: block;
-	background-image: url("../img/hero-bg.png");
+	background: url('../img/gradient-left-darker.png') repeat-y top left,url('../img/gradient-right-darker.png') repeat-y top right,#1c004c;
 	background-size: cover;
-	background-color: #343a40;
 	background-position: right top;
 	background-repeat: no-repeat;
 	position: relative;
@@ -1644,7 +1643,7 @@ ol {
 @media only screen and (max-width: 767px) {
 	.header-section {
 		padding: 30px 0;
-		background: #fff;
+		background: #17a2b8b3;
 	}
 	.header-section .responsive-bar {
 		float: right;
