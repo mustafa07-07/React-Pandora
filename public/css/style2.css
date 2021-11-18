@@ -1646,7 +1646,8 @@ ol {
 	}
 	.header-section .responsive-bar {
 		float: right;
-		font-size: 25px;
+		margin-right: 20px;
+		font-size: 30px;
 		display: block;
 		cursor: pointer;
 		color: white;
