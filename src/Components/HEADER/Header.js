@@ -9,7 +9,7 @@ export default class Header extends Component {
   render() {
     return (
       <header className="clearfix header-section">
-        <div className="container-fluid">
+        <div className="d-flex justify-content-between">
           <Link to="/">
             <img style={{float:'left',width:267,position:'relative',top:-19}}  src="../img/logo2.png" alt="" />
           </Link>
@@ -39,9 +39,7 @@ export default class Header extends Component {
               <li>
                 <Link to="/Influencer">Influencer</Link>
               </li>
-              <li>
-                <Link to="/Contact">Contact</Link>
-              </li>
+             
             </ul>
           </nav>
         </div>
