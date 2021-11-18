@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Typing from 'react-typing-animation';
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Link } from "react-router-dom";
-import Header from "../HEADER/Header";
 
 export default class HeroSection extends Component {
   render() {

@@ -85,8 +85,8 @@ a:focus {
 
 ul,
 ol {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 }
 
 /*---------------------
@@ -892,7 +892,7 @@ ol {
 
 .footer-widget ul a {
 	font-size: 16px;
-	color: #75849a;
+	color: #ffffff;
 	display: block;
 	margin-bottom: 12px;
 }
@@ -938,7 +938,7 @@ ol {
 
 .footer-bottom {
 	border-top: 1px solid #ebebeb;
-	padding: 30px 0;
+	/* padding: 30px 0; */
 }
 
 .footer-nav {
@@ -947,12 +947,14 @@ ol {
 
 .footer-nav li {
 	display: inline-block;
+	font-size: larger;
 }
 
 .footer-nav li a {
-	color: #75849a;
-	font-size: 14px;
+	color: #ffffff;
+	font-size: 20px;
 	margin-left: 20px;
+	margin-right: 37px;
 }
 
 /*---------------------
