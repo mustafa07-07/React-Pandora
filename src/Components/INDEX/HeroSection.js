@@ -15,7 +15,7 @@ export default class HeroSection extends Component {
               <h2>
                 <span className="mb-2">Pandora </span>
               </h2>
-              <div style={{"height":150}} className="col-sm-12">
+              <div style={{"height":145}} className="col-sm-12">
             
               <Typing
               speed="100ms">
@@ -26,17 +26,17 @@ export default class HeroSection extends Component {
              
               </Typing>
               </div>
-              <div className="float-left pl-5">
+              <div className="mt-3">
         
                 <div className="flex">
                 <Link to="/Contact" >
-                  <button className="ml-4 btn btn-lg btn-outline-success">
+                  <button className="m-2 btn btn-lg btn-outline-success">
                    <i className="fa fa-envelope"></i>   Contact Us
                   </button>
                   </Link>
                   <Link to="/Influencer" >
                   <button
-                  className="ml-4 btn btn-lg btn-outline-warning"
+                  className="m-2 btn btn-lg btn-outline-warning"
                     
                   >
                    <i className="fa fa-play"></i>   Influencer Application 

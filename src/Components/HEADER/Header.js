@@ -11,7 +11,7 @@ export default class Header extends Component {
       <header className="clearfix header-section">
         <div className="container-fluid">
           <Link to="/">
-            <img style={{float:'left',width:350,position:'relative',top:-25}}  src="../img/logo2.png" alt="" />
+            <img style={{float:'left',width:267,position:'relative',top:-19}}  src="../img/logo2.png" alt="" />
           </Link>
           <span onClick={() => this.handleClick()}>
             <div className="responsive-bar">
