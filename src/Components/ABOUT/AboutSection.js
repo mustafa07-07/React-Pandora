@@ -26,7 +26,7 @@ export default class AboutSection extends Component {
             </div>
           </div>
           <div className="about-img">
-            <img  style={{width:'60%'}} src="../img/About.png" alt="About" />
+            <img  style={{width:355}} src="../img/About.png" alt="About" />
           </div>
         </div>
       </section>

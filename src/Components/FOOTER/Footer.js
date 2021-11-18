@@ -3,15 +3,14 @@ import {  Link } from "react-router-dom";
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="footer-section" style={{background: "currentColor"}}>
-				<hr/>
-		<div className="text-white">
-			<div className="d-flex justify-content-around">
-				<div className="col-md-3 col-lg-3 footer-widget">
-					<img src="../img/logo2.png" className="mb-4" alt=""/>
+            <footer className="footer-section" style={{background: "currentColor",paddingTop:80}}>
+		<div className="text-white mb-5">
+			<div className="row container-fluid ">
+			<div className="col-md-3 col-sm-3  footer-widget">
+					<img src="../img/logo2.png" width="325" className="mb-4" alt=""/>
 					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.</p>
 				</div>
-				<div className="col-md-3 col-lg-2 offset-lg-1 footer-widget">
+				<div className="col-md-3 col-sm-3  footer-widget">
 					<h5 className="widget-title">Sources</h5>
 					<ul>
 					<li><Link exact="true" to="/">Home</Link></li>
@@ -22,7 +21,7 @@ export default class Footer extends Component {
 						<li><Link exact="true" to="/Contact">Contact</Link></li>
 					</ul>
 				</div>
-				<div className="col-md-3 col-lg-2 offset-lg-1 footer-widget">
+				<div className="col-md-3 col-sm-3  footer-widget">
 					<h5 className="widget-title">Permalinks</h5>
 					<ul>
 						<li><Link exact="true" to="/">Home</Link></li>
@@ -34,7 +33,7 @@ export default class Footer extends Component {
 						
 					</ul>
 				</div>
-				<div className="col-md-3 col-lg-3 footer-widget pl-lg-5">
+				<div className="col-md-3 col-sm-3 ">
 					<h5 className="widget-title">Follow us on social media</h5>
 					<div className="social d-flex justify-content-center">
 						<a href="https://facebook.com"  rel="noreferrer" target="_blank" className="facebook"><i className="fa fa-facebook"></i></a>
