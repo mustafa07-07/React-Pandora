@@ -4,7 +4,7 @@ export default class ContactAdress extends Component {
     render() {
         return (
             <div>
-                 <div class="container spad">
+                 <div class="container">
 	<div class="row">
     	<div class="col-xs-12 col-sm-6 col-lg-4">
 			<div class="box">							

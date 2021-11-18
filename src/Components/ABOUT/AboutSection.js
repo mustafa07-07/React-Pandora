@@ -3,8 +3,8 @@ import React, { Component } from "react";
 export default class AboutSection extends Component {
   render() {
     return (
-    <div>
-      <section className="about-section spad">
+    <div className="clearfix">
+      <section className="about-section">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-6 about-text">
@@ -26,7 +26,7 @@ export default class AboutSection extends Component {
             </div>
           </div>
           <div className="about-img">
-            <img src="../img/about-img.png" alt="" />
+            <img  style={{width:'60%'}} src="../img/About.png" alt="About" />
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default class AboutSection extends Component {
        <div className="container">
            <div className="row">
            <div className="col-lg-5 offset-lg-0">
-                  <img alt="Intro" height="250" src="../img/intro.png"/>
+                  <img alt="Intro" height="250" src="../img/Introduction.png"/>
                </div>
                <div className="col-lg-7 newsletter-text">
                    <h2>Introduction</h2>

@@ -12,8 +12,10 @@ import OurMarketing from './OurMarketing'
 export default function Index() {
     return (
         <div className="App">
-        <Header />
-        <HeroSection />
+       <div className="h-full w-full" >   
+         <Header />
+       <HeroSection />
+       </div>
         <AboutSection />
         <OurMarketing />
         <CoreValues/>

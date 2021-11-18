@@ -101,14 +101,17 @@ axios(config)
                            
                                
                                 <div className="col-md-6">
+
                                     <div className="form-group">
+
                                         <input 
                                         className="check-form" 
                                         type="text" 
                                         name="telegram" 
                                         value={telegram}
                                         onChange={this.onChange}
-                                        placeholder="Telegram USername*"/>
+                                        placeholder="Telegram Username*"/>
+                                        
                                         <span><i className="ti-check"></i></span>
                                     </div>
                                 </div>

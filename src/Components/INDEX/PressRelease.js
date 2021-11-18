@@ -23,7 +23,7 @@ export default class BlogSection extends Component {
               </div>
                     </div>
 
-                    <div className="col-md-6 feature col-lg-6 ">
+                    <div className="col-md-3 feature col-lg-6 ">
                     <i class="fa fa-shopping-basket"></i>
                                             <div className="feature-content">
                             <h4>Marketing Strategy</h4>
