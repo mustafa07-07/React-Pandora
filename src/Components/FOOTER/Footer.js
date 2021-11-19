@@ -36,8 +36,8 @@ export default class Footer extends Component {
                     <p class="small text-muted">Sign up for our social media newsletter to be informed about the innovations.</p>
                     <form action="#">
                         <div class="input-group mb-3">
-                            <input class="form-control" type="text" placeholder="Recipient's username"/>
-                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                            <input class="form-control" type="text" placeholder="Enter E-Mail address"/>
+                            <button class="btn btn-primary"  type="button"><i class="fa fa-envelope"></i></button>
                         </div>
                     </form>
                 </div>
