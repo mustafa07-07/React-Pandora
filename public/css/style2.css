@@ -329,7 +329,7 @@ ol {
 .menu-list li a {
 	display: inline-block;
 	font-family: "Futura", sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 15px 3px;
 	line-height: 16px;
 	margin-right: 13px;
@@ -360,7 +360,7 @@ ol {
 }
 
 .hero-text {
-	/* padding-top: 60px; */
+	padding-top: 60px;
 }
 
 .hero-text h2 {

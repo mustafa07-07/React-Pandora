@@ -35,7 +35,7 @@ export default class AboutSection extends Component {
            <div className="row">
                <div className="col-lg-7 align-self-center">
                    <h4>WHY IS PANDORA THE BEST CRYPTO MARKETING AGENCY?</h4>
-                   <h5>The most experienced Digital Marketing team in the space</h5>
+                   <h5>The most experienced Digital Marketing team in the space.</h5>
                </div>
                <div className="col-lg-5 offset-lg-0">
                   <img alt="Why Us" height="150" src="../img/why_us2.png" />
