@@ -344,7 +344,7 @@ ol {
 	height: 900px;
 	padding-top: 150px;
 	display: block;
-	background: url('../img/gradient-left-darker.png') repeat-y top left,url('../img/gradient-right-darker.png') repeat-y top right,#1c004c;
+	background: url('../img/bg.png') #1c004c;
 	background-size: cover;
 	background-position: right top;
 	background-repeat: no-repeat;
@@ -1473,7 +1473,7 @@ ol {
 	}
 	.hero-section,
 	.page-info-section {
-		background-position: right 30% top;
+		background-position: 63%, right;
 	}
 	.hero-section .laptop-image {
 		width: auto;
@@ -1511,7 +1511,7 @@ ol {
 	}
 	.hero-section,
 	.page-info-section {
-		background-position: right 23% top;
+		background-position: top 39% bottom;
 	}
 	.about-img {
 		left: 0px;
@@ -1550,7 +1550,7 @@ ol {
 		margin-left: 10px;
 	}
 	.hero-section {
-		background-position: right 25% top;
+		background-position: right 39% top;
 		height: 730px;
 		padding-top: 160px;
 	}
@@ -1695,8 +1695,8 @@ ol {
 	.hero-section {
 		height: auto;
 		padding-bottom: 100px;
-		padding-top: 160px;
-		background-position: right 50% top;
+		padding-top: 162px;
+		background-position: right 33% top;
 	}
 	.page-info-section {
 		background-position: right 56% top;
