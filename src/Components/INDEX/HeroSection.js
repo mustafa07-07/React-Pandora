@@ -23,7 +23,7 @@ export default class HeroSection extends Component {
               speed="100ms">
               <h3 className="text-white">
                 We believe that each and every idea deserves a shot, and we will
-                market your project real good.We believe that each and every idea deserves a shot, and we will
+                market your project real good.We believe that each and every idea deserves a shot, and we will.
                 
               </h3>
              
