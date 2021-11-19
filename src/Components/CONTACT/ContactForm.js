@@ -53,7 +53,9 @@ axios(config)
 
         return (
             <div>
-                  <section className="contact-page spad">
+
+                  <section className="contact-page ">
+
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7"></div>

@@ -21,8 +21,11 @@ export default class Header extends Component {
 
           <nav className="main-menu">
             <ul className="menu-list">
-              <Link to="/Contact" className="site-btn sb-gradients">
+            <Link to="/Contact" className="site-btn gradient-bg">
               Contact Us
+              </Link>
+              <Link to="/Influencer" className="site-btn gradient-bg">
+             Application 
               </Link>
               <li>
                 <Link to="/">Home</Link>
@@ -36,9 +39,8 @@ export default class Header extends Component {
               <li>
                 <Link to="/About">About</Link>
               </li>
-              <li>
-                <Link to="/Influencer">Influencer</Link>
-              </li>
+              
+            
              
             </ul>
           </nav>

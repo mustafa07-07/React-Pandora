@@ -13,8 +13,9 @@ export default function About() {
         <div className="App">
          <Header/>
          <ContactHeader/>
+         <ContactAdress/>
          <ContactFormSection/>
-       <ContactAdress/>
+      
         <Footer />   
         </div>
  )

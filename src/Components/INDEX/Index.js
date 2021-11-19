@@ -21,8 +21,7 @@ export default function Index() {
         <CoreValues/>
         <PressRelease />
         <WhyUs/>
-       
-      
+        <h2>Contact Us</h2>
         <ContactForm/>
         <Footer />   
         </div>

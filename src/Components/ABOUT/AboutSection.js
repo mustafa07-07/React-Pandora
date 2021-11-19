@@ -7,7 +7,7 @@ export default class AboutSection extends Component {
       <section className="about-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 offset-lg-6 about-text">
+            <div className="col-lg-6 offset-lg-6 spad about-text">
               <h2>ABOUT</h2>
               <h5>
               We believe that each and every idea deserves a shot, and we will market your project real good.
@@ -25,7 +25,7 @@ export default class AboutSection extends Component {
               </p>
             </div>
           </div>
-          <div className="about-img">
+          <div className="spad about-img">
             <img  style={{width:355}} src="../img/About.png" alt="About" />
           </div>
         </div>
@@ -33,7 +33,7 @@ export default class AboutSection extends Component {
        <section className="newsletter-section gradient-bg">
        <div className="container text-white">
            <div className="row">
-               <div className="col-lg-7 newsletter-text">
+               <div className="col-lg-7 align-self-center">
                    <h4>WHY IS PANDORA THE BEST CRYPTO MARKETING AGENCY?</h4>
                    <h5>The most experienced Digital Marketing team in the space</h5>
                </div>

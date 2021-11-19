@@ -37,7 +37,7 @@ export default class SocialContent extends Component {
                  </p>
                 
                  </div>
-                 <div className="text-white col-lg-5 about-text newsletter-text">
+                 <div className="col-lg-5 align-self-center">
                    <img alt="Social" src="../img/social2.png"/>
 </div>
                  </div>
@@ -46,10 +46,10 @@ export default class SocialContent extends Component {
                  <section className="about-section spad">
             <div className="container">
               <div className="row"> 
-              <div className="text-white col-lg-5 about-text newsletter-text">
-                   <img alt="social" src="../img/social3.png"/>
+              <div className="col-lg-5 align-self-center">
+                   <img alt="social" style={{width:325}} src="../img/social3.png"/>
 </div> 
-                <div className="col-lg-7  about-text">
+                <div className="col-lg-7  align-self-center">
                 <p>
                  In the past decade, presence in social media has become essential. It’s not enough anymore to have a profile page on Facebook. Now, there are numerous social media to choose from: Twitter, Snapchat, LinkedIn, TikTok, Instagram, Youtube, Pinterest… As a business, the goal is not to have a profile page on each of them; the goal is to find which ones are the most relevant for your industry and focus on those ones. This is where Pandora can help you. We will choose which social media you should work on and we will use our tools to get the best of those social media. A significant presence on social media allows you to get in touch with your users and give them new leads.
                  </p>
@@ -86,7 +86,7 @@ export default class SocialContent extends Component {
                  Let’s say 3 of them are relevant to address your message to your target audience. You should be active on those social media, which means posting frequently and regularly. It also means interacting with your community, with your users, customers, leads… Pandora can grow your community.
                  </p>
                  </div>
-                 <div className="text-white col-lg-5 about-text newsletter-text">
+                 <div className="col-lg-5 align-self-center">
                    <img alt="social" src="../img/social4.png"/>
 </div> 
                  </div>
