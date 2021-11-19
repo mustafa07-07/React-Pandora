@@ -8,7 +8,7 @@ export default class SocialContent extends Component {
             <div className="container">
               <div className="row">  
                 <div className="col-lg-6 offset-lg-6 about-text">
-                  <h2>SOCIAL MEDİA STRATEGY</h2>
+                  <h2>SOCIAL MEDIA STRATEGY</h2>
                   <p>
                   We believe that there is no one-size-fits-all influencer. It is always more beneficial (from both a cost and an influence perspective) to leverage ten 1,000 follower profiles than a single 10,000 follower profile. Why? Because spreading your brand across multiple influencers allows you to reach more targeted audiences that are more engaged and susceptible to a purchase. 
                   </p>
@@ -33,7 +33,7 @@ export default class SocialContent extends Component {
                   At Pandora, we've developed unique, cutting-edge social media strategies to help businesses strive online. Thanks to social media, we help our clients strengthen their brands, drive targeted traffic to their websites, generate leads, acquire users, engage with their community, build relationships and increase revenue. We strongly believe in social media’s power, which is why we don't only use social media for our clients; we also use it extensively for our brand. Many agencies will tell you they can manage your social media, but they don't believe in what they offer. They don't have a successful social media marketing strategy for themselves.
                  </p>
                  <p>
-                 Don't you believe us? Then, I invite you to look at Pandora’s social media channels such as Twitter, LinkedIn, Instagram, Pinterest,  Facebook or  Youtube
+                 Don't you believe us? Then, I invite you to look at Pandora’s social media channels such as Twitter, LinkedIn, Instagram, Pinterest,  Facebook or  Youtube.
                  </p>
                 
                  </div>

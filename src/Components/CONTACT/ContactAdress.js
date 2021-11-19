@@ -13,10 +13,10 @@ export default class ContactAdress extends Component {
 					<div class="info">
 						<h3 class="title">MAIL & WEBSITE</h3>
 						<p>
-							<i class="fa fa-envelope" aria-hidden="true"></i> info@pandora.com
+							<i class="fa fa-envelope" aria-hidden="true"></i> info@agencypandora.com
 							<br/>
 							<br/>
-							<i class="fa fa-globe" aria-hidden="true"></i>  www.pandora.com
+							<i class="fa fa-globe" aria-hidden="true"></i>  www.agencypandora.com
 						</p>
 					
 					</div>

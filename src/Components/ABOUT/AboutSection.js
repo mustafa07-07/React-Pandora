@@ -14,14 +14,14 @@ export default class AboutSection extends Component {
               </h5>
               <h5>
                 We Are a Dedicated Team of Professionals in Fintech Digital
-                Marketing
+                Marketing.
               </h5>
               <p>
                 During 2019-2021 we have seen a large volume of leads and
                 interest in our services off the back of developing some major
                 Crypto-related websites and marketing strategies; thus, we
                 launched the Pandora brand to better service our Crypto unique
-                clientele
+                clientele.
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default class AboutSection extends Component {
                <div className="col-lg-7 newsletter-text">
                    <h2>Introduction</h2>
                    <p>We breathe and consume the digital world, so we have all the right tools to hack your success and guide you to it.
-As your partner, we will be honest with you and tell you it is never easy to reach the top. We cannot give it on a silver plate, but we can support you thoroughly until the end
+As your partner, we will be honest with you and tell you it is never easy to reach the top. We cannot give it on a silver plate, but we can support you thoroughly until the end.
 </p>
                </div>
               
