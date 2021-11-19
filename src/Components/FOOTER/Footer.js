@@ -10,7 +10,9 @@ export default class Footer extends Component {
                 <div class="col-lg-4 col-md-6">
                     <h5 class="h1 text-white">Pandora</h5>
                     <p class="small text-muted">We believe that each and every idea deserves a shot, and we will market your project real good.</p>
-                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">agencypandora.com</a></p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.
+					<Link exact="true" to="/">agencypandora.com</Link>
+					 </p>
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h5 class="text-white mb-3">Quick links</h5>
