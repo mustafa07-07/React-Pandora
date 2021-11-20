@@ -11,7 +11,7 @@ export default class Header extends Component {
       <header className="clearfix header-section">
         <div className="d-flex justify-content-between">
           <Link to="/">
-            <img style={{float:'left',width:267,position:'relative',top:0}}  src="../img/logo2.png" alt="" />
+            <img className="animated fadeInDown" style={{float:'left',width:267,position:'relative',top:0}}  src="../img/logo2.png" alt="" />
           </Link>
           <span onClick={() => this.handleClick()}>
             <div className="responsive-bar">
