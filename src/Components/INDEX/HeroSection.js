@@ -11,7 +11,7 @@ export default class HeroSection extends Component {
   
      <section className="hero-section resbg">
     
-    <div className="container-md">
+    <div className="mt-5 container-md">
           <div className="row">
             <div className="col-lg-6 col-sm-12 hero-text">
               <h2>
