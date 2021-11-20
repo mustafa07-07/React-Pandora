@@ -17,15 +17,15 @@ export default class HeroSection extends Component {
               <h2>
                 <span className="mb-2">Pandora </span>
               </h2>
-              <div style={{"height":145}} className="col-sm-12">
+              <div style={{"height":145}} className="offset-1 col-sm-10">
             
               <Typing
               speed="100ms">
-              <h3 className="text-white">
+              <h4 className="text-white">
                 We believe that each and every idea deserves a shot, and we will
                 market your project real good.We believe that each and every idea deserves a shot, and we will.
                 
-              </h3>
+              </h4>
              
               </Typing>
               </div>

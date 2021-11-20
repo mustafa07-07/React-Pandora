@@ -21,10 +21,10 @@ export default class Header extends Component {
 
           <nav className="main-menu">
             <ul className="menu-list">
-            <Link to="/Contact" className="site-btn gradient-bg">
+            <Link to="/Contact" className="site-btn bg-gradient">
               Contact Us
               </Link>
-              <Link to="/Influencer" className="site-btn gradient-bg">
+              <Link to="/Influencer" className="site-btn bg-gradient">
              Application 
               </Link>
               <li>
