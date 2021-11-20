@@ -20,7 +20,8 @@ export default class HeroSection extends Component {
               <div className="col-sm-10">
             
               <Typing
-              speed="100ms">
+              speed="100ms"
+              className="ml-5">
               <h4 className="ml-5 text-white">
                 We believe that each and every idea deserves a shot, and we will
                 market your project real good.We believe that each and every idea deserves a shot, and we will.
