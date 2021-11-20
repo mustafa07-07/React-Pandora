@@ -15,9 +15,9 @@ export default class HeroSection extends Component {
           <div className="row">
             <div className="col-lg-6 col-sm-12 hero-text">
               <h2>
-                <span className="mb-2">Pandora </span>
+                <span className="mb-2">Pandora</span>
               </h2>
-              <div style={{"height":145}} className="offset-1 col-sm-10">
+              <div style={{"height":220}} className="col-sm-10">
             
               <Typing
               speed="100ms">

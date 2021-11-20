@@ -1636,7 +1636,7 @@ ol {
 @media only screen and (max-width: 767px) {
 	.header-section {
 		padding: 30px 0px;
-		background: #007bff24;
+		background: #1d004f;
 	}
 	.header-section .responsive-bar {
 		float: right;
@@ -1932,7 +1932,7 @@ ol {
             @media #{$breakpoint-md} {
                 font-size: 42px;
             }
-
+ 
             @media #{$breakpoint-xs } {
                 font-size: 30px;
             }
