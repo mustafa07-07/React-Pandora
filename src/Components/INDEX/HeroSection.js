@@ -17,7 +17,7 @@ export default class HeroSection extends Component {
               <h2>
                 <span className="mb-2">Pandora</span>
               </h2>
-              <div style={{"height":220}} className="col-sm-10">
+              <div className="col-sm-10">
             
               <Typing
               speed="100ms">

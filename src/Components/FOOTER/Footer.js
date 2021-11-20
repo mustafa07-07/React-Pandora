@@ -9,8 +9,8 @@ export default class Footer extends Component {
             <div class="row gy-4 gx-5">
                 <div class="col-lg-4 col-md-6">
                     <h5 class="h1 text-white">Pandora</h5>
-                    <p class="small text-muted">We believe that each and every idea deserves a shot, and we will market your project real good.</p>
-                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved.
+                    <p class=" text-muted">We believe that each and every idea deserves a shot, and we will market your project real good.</p>
+                    <p class=" text-muted mb-0">&copy; Copyrights. All rights reserved.
 					<Link exact="true" to="/">agencypandora.com</Link>
 					 </p>
                 </div>
@@ -35,7 +35,7 @@ export default class Footer extends Component {
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h5 class="text-white mb-3">Newsletter</h5>
-                    <p class="small text-muted">Sign up for our social media newsletter to be informed about the innovations.</p>
+                    <p class=" text-muted">Sign up for our social media newsletter to be informed about the innovations.</p>
                     <form action="#">
                         <div class="input-group mb-3">
                             <input class="form-control" type="text" placeholder="Enter E-Mail address"/>
