@@ -340,17 +340,6 @@ ol {
 	Hero Section
 -----------------------*/
 
-.hero-section {
-	height: 900px;
-	padding-top: 150px;
-	display: block;
-	background: url('../img/bg.png') #1c004c;
-	background-size: cover;
-	background-position: right top;
-	background-repeat: no-repeat;
-	position: relative;
-	overflow: hidden;
-}
 
 .hero-section .laptop-image {
 	width: 685px;
@@ -1473,7 +1462,7 @@ ol {
 	}
 	.hero-section,
 	.page-info-section {
-		background-position: 63%, right;
+		background-position: right 30% top;
 	}
 	.hero-section .laptop-image {
 		width: auto;
@@ -1511,7 +1500,7 @@ ol {
 	}
 	.hero-section,
 	.page-info-section {
-		background-position: top 39% bottom;
+		background-position: right 23% top;
 	}
 	.about-img {
 		left: 0px;
@@ -1550,7 +1539,7 @@ ol {
 		margin-left: 10px;
 	}
 	.hero-section {
-		background-position: right 39% top;
+		background-position: right 25% top;
 		height: 730px;
 		padding-top: 160px;
 	}
@@ -1695,8 +1684,8 @@ ol {
 	.hero-section {
 		height: auto;
 		padding-bottom: 100px;
-		padding-top: 162px;
-		background-position: right 33% top;
+		padding-top: 160px;
+		background-position: right 50% top;
 	}
 	.page-info-section {
 		background-position: right 56% top;

@@ -9,11 +9,11 @@ export default class HeroSection extends Component {
     return (
      
   
-     <section className="hero-section">
+     <section className="hero-section resbg">
     
     <div className="container-md">
           <div className="row">
-            <div className="col-sm-6 hero-text">
+            <div className="col-lg-6 col-sm-12 hero-text">
               <h2>
                 <span className="mb-2">Pandora </span>
               </h2>
@@ -48,11 +48,13 @@ export default class HeroSection extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6">
+            <div className="animation-bg col-sm-12 col-lg-6">
+              <img  src="../img/animation_bg.png"/>
               <Player
+             
                 autoplay
                 loop
-                style={{ height: 550 }}
+                style={{ height: 300 }}
                 src="https://assets7.lottiefiles.com/packages/lf20_lm7s4qvw.json"
               ></Player>
             </div>
