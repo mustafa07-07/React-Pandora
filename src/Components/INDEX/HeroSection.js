@@ -17,7 +17,7 @@ export default class HeroSection extends Component {
               <h2>
                 <span className="mb-2">Pandora</span>
               </h2>
-              <div className="col-sm-12">
+              <div className="col-sm-10">
             
               <Typing
               speed="100ms">
@@ -29,7 +29,7 @@ export default class HeroSection extends Component {
              
               </Typing>
               </div>
-              <div className="mt-3">
+              <div className="mt-5">
         
                 <div className="flex">
                 <Link to="/Contact" >
