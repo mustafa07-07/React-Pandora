@@ -17,11 +17,11 @@ export default class HeroSection extends Component {
               <h2>
                 <span className="mb-2">Pandora</span>
               </h2>
-              <div className="col-sm-10">
+              <div className="col-sm-12">
             
               <Typing
               speed="100ms">
-              <h4 className="text-white">
+              <h4 className="ml-5 text-white">
                 We believe that each and every idea deserves a shot, and we will
                 market your project real good.We believe that each and every idea deserves a shot, and we will.
                 
