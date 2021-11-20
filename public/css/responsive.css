@@ -15,4 +15,7 @@
     /* border:1px solid red; */
     left: 4px;
 }
-#lottie{height:360px!important}
+#lottie{
+    width:64%!important;
+    height:auto!important
+}

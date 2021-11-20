@@ -49,7 +49,7 @@ export default class HeroSection extends Component {
               </div>
             </div>
             <div className="animation-bg col-sm-12 col-lg-6">
-              <img  src="../img/animation_bg.png"/>
+              <img alt="animation" src="../img/animation_bg.png"/>
               <Player
              
                 autoplay
