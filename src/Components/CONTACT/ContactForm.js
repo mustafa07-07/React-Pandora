@@ -6,7 +6,7 @@ export default class ContactForm extends Component {
     constructor() {
         super();
         this.state = {
-          to: 'mustafaaliyildirim95@gmail.com',
+          to: 'info@agencypandora.com',
           name: '',
           lastName: '',
           company: '',
