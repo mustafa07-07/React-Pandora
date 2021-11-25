@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
-import Footer from '../FOOTER/Footer'
-import Header from '../HEADER/Header'
-import AboutSection from './AboutSection'
-import AboutUsSection from './AboutUsSection.js'
+import React, { Component } from "react";
+import Footer from "../FOOTER/Footer";
+import Header from "../HEADER/Header";
+import AboutSection from "./AboutSection";
+import AboutUsSection from "./AboutUsSection.js";
 
 export default class About extends Component {
   render() {
     return (
-     <div className="App">
+      <div className="App">
         <Header />
-        <AboutUsSection/>
+        <AboutUsSection />
         <AboutSection />
-        <Footer />   
-     </div>
-    )
+        <Footer />
+      </div>
+    );
   }
 }

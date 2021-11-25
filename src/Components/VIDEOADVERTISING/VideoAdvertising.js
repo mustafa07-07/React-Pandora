@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Footer from "../FOOTER/Footer";
 import Header from "../HEADER/Header";
-import SocialContent from "./SocialContent";
-import SocialSection from "./SocialSection";
+import VAContent from "./VAContent";
+import VAHeader from "./VAHeader";
 
-export default class Social extends Component {
+export default class VideoAdvertising extends Component {
   render() {
     return (
       <div>
         <Header />
-        <SocialSection />
-        <SocialContent />
+        <VAHeader />
+        <VAContent />
         <Footer />
       </div>
     );

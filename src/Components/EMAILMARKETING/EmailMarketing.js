@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Footer from "../FOOTER/Footer";
 import Header from "../HEADER/Header";
-import SocialContent from "./SocialContent";
-import SocialSection from "./SocialSection";
+import EMContent from "./EMContent";
+import EMHeader from "./EMHeader";
 
-export default class Social extends Component {
+export default class s extends Component {
   render() {
     return (
       <div>
         <Header />
-        <SocialSection />
-        <SocialContent />
+        <EMHeader />
+        <EMContent />
         <Footer />
       </div>
     );

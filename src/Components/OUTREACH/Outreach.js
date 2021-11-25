@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Footer from "../FOOTER/Footer";
 import Header from "../HEADER/Header";
-import SocialContent from "./SocialContent";
-import SocialSection from "./SocialSection";
+import OutreachContent from "./OutreachContent";
+import OutreachHeader from "./OutreachHeader";
 
-export default class Social extends Component {
+export default class Outreach extends Component {
   render() {
     return (
       <div>
         <Header />
-        <SocialSection />
-        <SocialContent />
+        <OutreachHeader />
+        <OutreachContent />
         <Footer />
       </div>
     );

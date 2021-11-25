@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Footer from "../FOOTER/Footer";
 import Header from "../HEADER/Header";
-import SocialContent from "./SocialContent";
-import SocialSection from "./SocialSection";
+import CMContent from "./CMContent";
+import CMHeader from "./CMHeader";
 
-export default class Social extends Component {
+export default class ContentMarketing extends Component {
   render() {
     return (
       <div>
         <Header />
-        <SocialSection />
-        <SocialContent />
+        <CMHeader />
+        <CMContent />
         <Footer />
       </div>
     );
