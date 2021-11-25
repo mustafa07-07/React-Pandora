@@ -30,13 +30,34 @@ export default class Footer extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link exact="true" to="/Social">
-                    Social
+                  <Link exact="true" to="/InfluencerMarketing">
+                    Influencer Marketing
                   </Link>
                 </li>
                 <li>
-                  <Link exact="true" to="/About">
-                    About Us
+                  <Link exact="true" to="/VideoAdvertising">
+                    Video Advertising
+                  </Link>
+                </li>
+
+                <li>
+                  <Link exact="true" to="/ContentMarketing">
+                    Content Marketing
+                  </Link>
+                </li>
+                <li>
+                  <Link exact="true" to="/Outreach">
+                    Outreach
+                  </Link>
+                </li>
+                <li>
+                  <Link exact="true" to="/EmailMarketing">
+                    Email Marketing
+                  </Link>
+                </li>
+                <li>
+                  <Link exact="true" to="/Social">
+                    Social
                   </Link>
                 </li>
                 <li>
