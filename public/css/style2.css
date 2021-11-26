@@ -1868,7 +1868,7 @@
   .box > .icon:hover > .image {
 	background: #333;
   }
-  .info > p > i {
+  .info > p > a > i {
 	  padding:5px!important;
   }
   .box > .icon > .image > i {
