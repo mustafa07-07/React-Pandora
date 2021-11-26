@@ -16,9 +16,12 @@ export default class HeroSection extends Component {
               <div className="col-sm-10">
                 <Typing speed="100ms" className="hero-section-text">
                   <h4 className="text-white">
-                    We believe that each and every idea deserves a shot, and we
-                    will market your project real good.We believe that each and
-                    every idea deserves a shot, and we will.
+                    Every idea deserves a shot, and we will market your project
+                    in the best way imaginable.
+                  </h4>
+                  <h4 className="text-white">
+                    We believe in the power of collaboration, co-creation, data
+                    and ideas to create maximum impact.
                   </h4>
                 </Typing>
               </div>

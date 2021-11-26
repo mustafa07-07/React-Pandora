@@ -72,7 +72,7 @@ export default class Footer extends Component {
               <h5 class="text-white mb-3">Social Media</h5>
               <div className="social row justify-content-center">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/AgencyPandora/"
                   rel="noreferrer"
                   target="_blank"
                   className="facebook"
@@ -88,7 +88,7 @@ export default class Footer extends Component {
                   <i className="fa fa-instagram"></i>
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/AgencyPandora"
                   rel="noreferrer"
                   target="_blank"
                   className="twitter"
@@ -102,6 +102,22 @@ export default class Footer extends Component {
                   className="linkedin"
                 >
                   <i className="fa fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.reddit.com/user/Agencypandora"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="reddit"
+                >
+                  <i className="fa ti-reddit"></i>
+                </a>
+                <a
+                  href="https://t.me/AgencyPandora"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="telegram"
+                >
+                  <i className="fa fa-telegram"></i>
                 </a>
               </div>
             </div>

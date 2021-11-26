@@ -21,12 +21,15 @@ export default class ContactAdress extends Component {
                         info@agencypandora.com
                       </a>
                       <br />
-                      <br />
+                     
                       <i class="fa fa-globe" aria-hidden="true"></i>{" "}
                       <Link exact="true" to="/">
                         agencypandora.com
                       </Link>
-                    </p>
+                    
+					<br/>
+					
+					  </p>
                   </div>
                 </div>
                 <div class="space"></div>
@@ -46,22 +49,13 @@ export default class ContactAdress extends Component {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://api.whatsapp.com/send?phone=905555555555&text=deneme"
+						
+                        href="https://api.whatsapp.com/send?phone=31685289793&text=Hi Pandora"
                       >
-                        {" "}
-                        (+91)-9624XXXXX
+                        (+31) 6 85289793
+                        
                       </a>
-                      <br />
-                      <br />
-                      <i class="fa fa-mobile" aria-hidden="true"></i>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://api.whatsapp.com/send?phone=905555555555&text=deneme"
-                      >
-                        {" "}
-                        (+91)-9624XXXXX
-                      </a>
+                 
                     </p>
                   </div>
                 </div>
@@ -76,7 +70,7 @@ export default class ContactAdress extends Component {
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                   </div>
                   <div class="info">
-                    <h3 class="title">ADDRESS</h3>
+                    <h3 class="title">ADDRESS</h3>	
                     <p>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                       15/3 Junction Plot "Shree Krishna Krupa", Rajkot - 360001.
@@ -86,6 +80,7 @@ export default class ContactAdress extends Component {
                 <div class="space"></div>
               </div>
             </div>
+			
           </div>
         </div>
       </div>
