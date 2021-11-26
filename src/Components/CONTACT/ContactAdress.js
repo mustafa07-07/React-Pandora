@@ -73,7 +73,7 @@ export default class ContactAdress extends Component {
                     <h3 class="title">ADDRESS</h3>	
                     <p>
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
-                      15/3 Junction Plot "Shree Krishna Krupa", Rajkot - 360001.
+                      Wilhelminakade 173, 3072 AP Rotterdam, Netherlands
                     </p>
                   </div>
                 </div>
