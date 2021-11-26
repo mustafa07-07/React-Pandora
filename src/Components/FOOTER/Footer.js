@@ -10,7 +10,8 @@ export default class Footer extends Component {
               <h5 class="h1 text-white">Pandora</h5>
               <p class=" text-muted">
                 We believe that each and every idea deserves a shot, and we will
-                market your project real good.
+                market your project real good.We believe that each and every
+                idea deserves a shot, and we will.
               </p>
               <p class=" text-muted mb-0">
                 &copy; Copyrights All Rights Reserved Agency Pandora
@@ -115,7 +116,7 @@ export default class Footer extends Component {
                   <input
                     class="form-control"
                     type="text"
-                    placeholder="Enter E-Mail address"
+                    placeholder="Enter EMail address"
                   />
                   <button class="btn rounded-right btn-primary" type="button">
                     <i class="fa fa-envelope"></i>

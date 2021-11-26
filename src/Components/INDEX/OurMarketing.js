@@ -83,7 +83,7 @@ export default class OurMarketing extends Component {
             <div className="col-md-6 col-lg-3 feature">
               <i className="ti-twitter"></i>
               <div className="feature-content">
-                <h4>Twitter Trend Topic </h4>
+                <h4>TWITTER TREND TOPIC </h4>
                 <p>
                   Video advertising is a critical element of an advertiser’s
                   overall digital media strategy. We will help you launch video
@@ -94,7 +94,7 @@ export default class OurMarketing extends Component {
             <div className="col-md-6 col-lg-3 feature">
               <i className="fa fa-telegram"></i>
               <div className="feature-content">
-                <h4>Telegram Bot Software Solutions</h4>
+                <h4>TELEGRAM BOT SOFTWARE SOLUTIONS</h4>
                 <p>
                   Video advertising is a critical element of an advertiser’s
                   overall digital media strategy. We will help you launch video

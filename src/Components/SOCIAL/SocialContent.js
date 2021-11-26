@@ -9,7 +9,7 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="col-lg-6 offset-lg-6 about-text">
                 <h2>SOCIAL MEDIA STRATEGY</h2>
-                <p>
+                <p class="text-justify">
                   We believe that there is no one-size-fits-all influencer. It
                   is always more beneficial (from both a cost and an influence
                   perspective) to leverage ten 1,000 follower profiles than a
@@ -18,7 +18,7 @@ export default class SocialContent extends Component {
                   targeted audiences that are more engaged and susceptible to a
                   purchase.
                 </p>
-                <p>
+                <p class="text-justify">
                   {" "}
                   We combine this multi-tier approach to influencers with our
                   data team to capture personalized market research that powers
@@ -43,14 +43,14 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="text-white col-lg-7 about-text newsletter-text">
                 <h2>SMO (Social Media Optimization)</h2>
-                <p>
+                <p class="text-justify">
                   SMO (Social media optimization) is the process of increasing
                   the awareness of a startup, business, product, organization,
                   or brand by using social media strategies and communities to
                   generate growth. Nowadays, social media has become key to
                   ensuring business success
                 </p>
-                <p>
+                <p class="text-justify">
                   At Pandora, we've developed unique, cutting-edge social media
                   strategies to help businesses strive online. Thanks to social
                   media, we help our clients strengthen their brands, drive
@@ -63,7 +63,7 @@ export default class SocialContent extends Component {
                   believe in what they offer. They don't have a successful
                   social media marketing strategy for themselves.
                 </p>
-                <p>
+                <p class="text-justify">
                   Don't you believe us? Then, I invite you to look at Pandora’s
                   social media channels such as Twitter, LinkedIn, Instagram,
                   Pinterest, Facebook or Youtube.
@@ -86,7 +86,7 @@ export default class SocialContent extends Component {
                 />
               </div>
               <div className="col-lg-7 align-self-center">
-                <p>
+                <p class="text-justify">
                   In the past decade, presence in social media has become
                   essential. It’s not enough anymore to have a profile page on
                   Facebook. Now, there are numerous social media to choose from:
@@ -100,7 +100,7 @@ export default class SocialContent extends Component {
                   media allows you to get in touch with your users and give them
                   new leads.
                 </p>
-                <p>
+                <p class="text-justify">
                   There are five principles to respect to have a successful
                   social media strategy: listening, staying focused, bringing
                   quality/value, being patient, and being accessible.
@@ -113,7 +113,7 @@ export default class SocialContent extends Component {
           <div className="container">
             <div className="row">
               <div className="text-white col-lg-7 about-text">
-                <p>
+                <p class="text-justify">
                   SMO (Social Media Optimization) should be part of a broader
                   inbound marketing strategy SMO corresponds to all the non-paid
                   actions taken to reinforce your presence on social media. At
@@ -121,14 +121,14 @@ export default class SocialContent extends Component {
                   community, interact and engage with your followers, provide
                   you with valuable users' feedbacks, and create new leads.
                 </p>
-                <p>
+                <p class="text-justify">
                   What SMO (Social Media Optimization) does is increase the
                   visibility of your social media profile, social networking,
                   and published content. This way, your content, and your
                   product will be found by people looking for information
                   relating to your content.
                 </p>
-                <p>
+                <p class="text-justify">
                   Having an effective social media strategy can prevent your
                   business from failing and lead it to success Social Media
                   Optimization also helps drive traffic to your website and
@@ -138,17 +138,17 @@ export default class SocialContent extends Component {
                   your users, and thanks to those, you will know what they are
                   expecting from you.
                 </p>
-                <p>
+                <p class="text-justify">
                   With our social media services based on the five principles
                   mentioned before (Listen - Focus - Quality - Patience -
                   Accessibility), Pandora can help you get the best social
                   media.
                 </p>
-                <p>
+                <p class="text-justify">
                   If you are interested in growing your community, don't
                   hesitate to contact Pandora.
                 </p>
-                <p>
+                <p class="text-justify">
                   Let’s say 3 of them are relevant to address your message to
                   your target audience. You should be active on those social
                   media, which means posting frequently and regularly. It also
@@ -168,20 +168,20 @@ export default class SocialContent extends Component {
               <div className="col-lg-12 about-text">
                 <h2>SMM (Social Media Marketing) Services</h2>
                 <h5>SMM is at SMO what SEM is at SEO.</h5>
-                <p>
+                <p class="text-justify">
                   Social Media Marketing involves paid advertising through
                   social media channels. If you ever heard of Facebook,
                   Instagram, LinkedIn, or Twitter ads, then you are familiar
                   with SMM. This is the process of using paid advertising to
                   broaden your customer reach and increase your brand exposure.{" "}
                 </p>
-                <p>
+                <p class="text-justify">
                   At Pandora, we usually recommend our SMM (Social media
                   marketing) services to the businesses we work with when they
                   want to get fast results and the most bang for their buck. It
                   goes hand to hand with their existing marketing strategy.{" "}
                 </p>
-                <p>
+                <p class="text-justify">
                   For your social media marketing strategy to be as effective as
                   possible, we put in place our Pandora concept, create multiple
                   creatives, copies, CTA (Call-to-Action), and experiments to
@@ -201,7 +201,7 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="text-white col-lg-12 about-text">
                 <h2>It's time to leverage the power of social media!</h2>
-                <p>
+                <p class="text-justify">
                   Social media is so powerful, so why didn't you apply a proven
                   strategy? At Pandora, we can help you manage your social media
                   channels, create visuals and copies that convey your brand's
@@ -219,7 +219,7 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="col-lg-12 about-text">
                 <h2>ICO Advisory</h2>
-                <p>
+                <p class="text-justify">
                   ICO process and all of its challenges. We provide valuable
                   multi-channel strategy advice and can significantly boost
                   brand connections and business development operations.{" "}
@@ -233,7 +233,7 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="text-white col-lg-12 about-text">
                 <h2>Crypto Influencer Outreach</h2>
-                <p>
+                <p class="text-justify">
                   We maintain strong relationships with a large and growing
                   network of crypto influencers with massive audiences on
                   YouTube, Twitter, and beyond. We regularly activate this
@@ -249,7 +249,7 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="col-lg-12 about-text">
                 <h2>Influencer Outreach</h2>
-                <p>
+                <p class="text-justify">
                   Influencers are recognized to be more effective at activating
                   audiences than traditional in-house marketing. Why? Because
                   they're trusted and have an existing following. We get you

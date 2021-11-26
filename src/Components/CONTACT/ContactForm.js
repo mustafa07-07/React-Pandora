@@ -84,7 +84,7 @@ export default class ContactForm extends Component {
                         name="name"
                         value={name}
                         onChange={this.onChange}
-                        placeholder="First Name *:"
+                        placeholder="First Name*:"
                       />
                       <span>
                         <i className="ti-check"></i>
@@ -100,7 +100,7 @@ export default class ContactForm extends Component {
                         name="lastName"
                         value={lastName}
                         onChange={this.onChange}
-                        placeholder="Last Name *:"
+                        placeholder="Last Name*:"
                       />
                       <span>
                         <i className="ti-check"></i>
@@ -133,7 +133,7 @@ export default class ContactForm extends Component {
                         name="webSite"
                         value={webSite}
                         onChange={this.onChange}
-                        placeholder="Web Site: *"
+                        placeholder="Web Site*:"
                       />
                       <span>
                         <i className="ti-check"></i>

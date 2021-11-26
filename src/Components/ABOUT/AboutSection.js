@@ -17,7 +17,7 @@ export default class AboutSection extends Component {
                   We Are a Dedicated Team of Professionals in Fintech Digital
                   Marketing.
                 </h5>
-                <p>
+                <p class="text-justify">
                   During 2019-2021 we have seen a large volume of leads and
                   interest in our services off the back of developing some major
                   Crypto-related websites and marketing strategies; thus, we
@@ -49,12 +49,12 @@ export default class AboutSection extends Component {
         <section className="newsletter-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-5 offset-lg-0">
+              <div className="col-lg-4 offset-lg-0">
                 <img alt="Intro" height="250" src="../img/Introduction.png" />
               </div>
-              <div className="col-lg-7 newsletter-text">
+              <div className="col-lg-8 newsletter-text">
                 <h2>Introduction</h2>
-                <p>
+                <p class="text-justify">
                   We breathe and consume the digital world, so we have all the
                   right tools to hack your success and guide you to it. As your
                   partner, we will be honest with you and tell you it is never
@@ -68,10 +68,10 @@ export default class AboutSection extends Component {
         <section className="text-white newsletter-section gradient-bg">
           <div className="container">
             <div className="row">
-              <div className="col-lg-7 newsletter-text">
+              <div className="col-lg-8 newsletter-text">
                 <h2>Vision </h2>
                 <h5>Success is never achieved overnight.</h5>
-                <p>
+                <p class="text-justify">
                   Web stacks partnerships are formed over quarters and years,
                   not weeks or one-off projects. Our most outstanding
                   achievements will be a result of continuous feedback, clear
@@ -79,7 +79,7 @@ export default class AboutSection extends Component {
                   world's most innovative projects.
                 </p>
               </div>
-              <div className="col-lg-5 offset-lg-0">
+              <div className="col-lg-4 offset-lg-0">
                 <img alt="Vision" height="250" src="../img/vision.png" />
               </div>
             </div>
