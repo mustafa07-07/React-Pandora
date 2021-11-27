@@ -101,9 +101,8 @@ export default class SocialContent extends Component {
                   new leads.
                 </p>
                 <p class="text-justify">
-                  There are five principles to respect to have a successful
-                  social media strategy: listening, staying focused, bringing
-                  quality/value, being patient, and being accessible.
+                  Our five principles for a successful social media strategy :
+                  Listen - Focus - Quality -Patience -Accessibility
                 </p>
               </div>
             </div>
@@ -146,15 +145,9 @@ export default class SocialContent extends Component {
                 </p>
                 <p class="text-justify">
                   If you are interested in growing your community, don't
-                  hesitate to contact Pandora.
+                  hesitate to contact us.
                 </p>
-                <p class="text-justify">
-                  Let’s say 3 of them are relevant to address your message to
-                  your target audience. You should be active on those social
-                  media, which means posting frequently and regularly. It also
-                  means interacting with your community, with your users,
-                  customers, leads… Pandora can grow your community.
-                </p>
+               
               </div>
               <div className="col-lg-5 align-self-center">
                 <img alt="social" src="../img/social4.png" />
@@ -167,7 +160,6 @@ export default class SocialContent extends Component {
             <div className="row">
               <div className="col-lg-12 about-text">
                 <h2>SMM (Social Media Marketing) Services</h2>
-                <h5>SMM is at SMO what SEM is at SEO.</h5>
                 <p class="text-justify">
                   Social Media Marketing involves paid advertising through
                   social media channels. If you ever heard of Facebook,
@@ -179,7 +171,7 @@ export default class SocialContent extends Component {
                   At Pandora, we usually recommend our SMM (Social media
                   marketing) services to the businesses we work with when they
                   want to get fast results and the most bang for their buck. It
-                  goes hand to hand with their existing marketing strategy.{" "}
+                  goes hand in hand with their existing marketing strategy.{" "}
                 </p>
                 <p class="text-justify">
                   For your social media marketing strategy to be as effective as

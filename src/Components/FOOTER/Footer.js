@@ -132,7 +132,7 @@ export default class Footer extends Component {
                   <input
                     class="form-control"
                     type="text"
-                    placeholder="Enter EMail address"
+                    placeholder="Enter email address"
                   />
                   <button class="btn rounded-right btn-primary" type="button">
                     <i class="fa fa-envelope"></i>
