@@ -48,7 +48,10 @@ export default class SliderArea extends Component {
         <h2>İş Birliklerimiz</h2>
         <Slider {...settings}>
           <div>
-            <a href="https://anyswap.net/" target="_blank">
+            <a href="https://anyswap.net/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -58,7 +61,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://www.bancor.network/" target="_blank">
+            <a href="https://www.bancor.network/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -68,7 +74,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://binemon.io/" target="_blank">
+            <a href="https://binemon.io/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -78,7 +87,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://bonfida.org/" target="_blank">
+            <a href="https://bonfida.org/"
+             target="_blank"
+             rel="noreferrer"
+             >
               <img
                 height={150}
                 width={"auto"}
@@ -88,7 +100,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://metagame-arena.io/" target="_blank">
+            <a href="https://metagame-arena.io/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -98,7 +113,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://minaprotocol.com/" target="_blank">
+            <a href="https://minaprotocol.com/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -108,7 +126,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://mobius.network/" target="_blank">
+            <a href="https://mobius.network/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -118,7 +139,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://neo.org/" target="_blank">
+            <a href="https://neo.org/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -128,7 +152,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://qtum.org/" target="_blank">
+            <a href="https://qtum.org/"
+             target="_blank"
+             rel="noreferrer"
+             >
               <img
                 height={150}
                 width={"auto"}
@@ -138,7 +165,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://www.runonflux.io/" target="_blank">
+            <a href="https://www.runonflux.io/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
@@ -148,7 +178,10 @@ export default class SliderArea extends Component {
             </a>
           </div>
           <div>
-            <a href="https://shibatoken.com/" target="_blank">
+            <a href="https://shibatoken.com/" 
+            target="_blank"
+            rel="noreferrer"
+            >
               <img
                 height={150}
                 width={"auto"}
