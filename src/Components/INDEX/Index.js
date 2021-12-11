@@ -8,6 +8,7 @@ import WhyUs from "./WhyUs";
 import CoreValues from "./CoreValues";
 import ContactForm from "../CONTACT/ContactForm";
 import OurMarketing from "./OurMarketing";
+import Slider from "./Slider";
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
       <CoreValues />
       <PressRelease />
       <WhyUs />
+      <Slider/>
       <h2>Contact Us</h2>
       <ContactForm />
       <Footer />
