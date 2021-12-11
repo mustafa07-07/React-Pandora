@@ -53,7 +53,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="AnySwap"
-                rel="noopener noreferrer"
                 src="../img/partners/AnySwap.png"
               />
             </a>
@@ -64,7 +63,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Bancor"
-                rel="noopener noreferrer"
                 src="../img/partners/Bancor.png"
               />
             </a>
@@ -75,7 +73,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Binemon"
-                rel="noopener noreferrer"
                 src="../img/partners/binemon.png"
               />
             </a>
@@ -86,7 +83,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Bonfida"
-                rel="noopener noreferrer"
                 src="../img/partners/bonfida.png"
               />
             </a>
@@ -97,7 +93,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Meta-game"
-                rel="noopener noreferrer"
                 src="../img/partners/metagame.png"
               />
             </a>
@@ -108,7 +103,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Mina"
-                rel="noopener noreferrer"
                 src="../img/partners/mina.png"
               />
             </a>
@@ -119,7 +113,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Mobius"
-                rel="noopener noreferrer"
                 src="../img/partners/mobius.png"
               />
             </a>
@@ -130,7 +123,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Neo"
-                rel="noopener noreferrer"
                 src="../img/partners/neo.png"
               />
             </a>
@@ -141,7 +133,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Qtum"
-                rel="noopener noreferrer"
                 src="../img/partners/Qtum.png"
               />
             </a>
@@ -152,7 +143,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Runonflux"
-                rel="noopener noreferrer"
                 src="../img/partners/runonflux.png"
               />
             </a>
@@ -163,7 +153,6 @@ export default class SliderArea extends Component {
                 height={150}
                 width={"auto"}
                 alt="Shiba"
-                rel="noopener noreferrer"
                 src="../img/partners/shiba.png"
               />
             </a>
