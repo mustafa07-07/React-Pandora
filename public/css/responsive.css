@@ -12,6 +12,7 @@
 .hero-section-text{
     margin-left:100px!important
 }
+.slick-slide img{padding:10px!important}
 .animation-bg .lf-player-container{
     position:relative;
     top: -54.8%;
