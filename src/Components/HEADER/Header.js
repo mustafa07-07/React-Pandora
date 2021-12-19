@@ -56,9 +56,11 @@ export default class Header extends Component {
                 <Link to="/InfluencerMarketing">Influencer Marketing</Link>
               </li>
               <li>
+                <Link to="/Partners">Partners</Link>
+              </li>
+              <li>
                 <Link to="/About">About</Link>
               </li>
-
               <li>
                 <Link to="/Influencer" className="site-btn bg-gradient">
                   Application

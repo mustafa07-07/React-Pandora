@@ -18,6 +18,7 @@ import InfluencerMarketing from "./Components/INFLUENCERMARKETING/InfluencerMark
 import Outreach from "./Components/OUTREACH/Outreach";
 import ContentMarketing from "./Components/CONTENTMARKETING/ContentMarketing";
 import VideoAdvertising from "./Components/VIDEOADVERTISING/VideoAdvertising";
+import Ourpartners from "./Components/OURPARTNERS/Ourpartners";
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
           </Route>
           <Route exact={true} path="/VideoAdvertising">
             <VideoAdvertising />
+          </Route>
+          <Route exact={true} path="/Partners">
+            <Ourpartners />
           </Route>
           <Route exact={true} path="/EmailMarketing">
             <EmailMarketing />
