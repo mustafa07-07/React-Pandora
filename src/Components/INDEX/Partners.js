@@ -9,7 +9,7 @@ export default class Partners extends Component {
           <div class="row">
             <div class="row">
               <div class="col-lg-2 col-md-4 col-6">
-                <a href="#">
+                <a href="https://www.google.com">
                   <img
                     src="./img/partners/logolar/big-news-network.png"
                     rel="noreferrer"
@@ -19,7 +19,7 @@ export default class Partners extends Component {
                 </a>
               </div>
               <div class="col-lg-2 col-md-4 col-6">
-                <a href="#">
+                <a href="https://www.google.com">
                   <img
                     src="./img/partners/logolar/Bitcoin_Magazine_Logo_2017.png"
                     rel="noreferrer"
@@ -29,7 +29,7 @@ export default class Partners extends Component {
                 </a>
               </div>
               <div class="col-lg-2 col-md-4 col-6">
-                <a href="#">
+                <a href="https://www.google.com">
                   <img
                     src="./img/partners/logolar/bitcoin-com.png"
                     rel="noreferrer"
@@ -39,7 +39,7 @@ export default class Partners extends Component {
                 </a>
               </div>
               <div class="col-lg-2 col-md-4 col-6">
-                <a href="#">
+                <a href="https://www.google.com">
                   <img
                     src="./img/partners/logolar/bitcoinexchangeguide.png"
                     rel="noreferrer"
@@ -49,7 +49,7 @@ export default class Partners extends Component {
                 </a>
               </div>
               <div class="col-lg-2 col-md-4 col-6">
-                <a href="#">
+                <a href="https://www.google.com">
                   <img
                     src="./img/partners/logolar/bitcoingarden.logo_.270.090.1.png"
                     rel="noreferrer"
@@ -59,7 +59,7 @@ export default class Partners extends Component {
                 </a>
               </div>
               <div class="col-lg-2 col-md-4 col-6">
-                <a href="#">
+                <a href="https://www.google.com">
                   <img
                     src="./img/partners/logolar/bitcoinist.png"
                     rel="noreferrer"
