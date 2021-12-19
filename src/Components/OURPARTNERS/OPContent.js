@@ -159,7 +159,7 @@ export default function OPContent() {
     </div>
     <div class="row">
         <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.google.com"><img src="./img/partners/logolar/Coinbound-Product-Image-10-300x300.png" rel="noreferrer" class="img-fluid" alt="Coinbound-Product-Image-10-300x300"/></a>
+            <a href="https://www.google.com"><img src="./img/partners/logolar/Coinbound-Product-Image-10-300x300.png" rel="noreferrer" class="img-fluid" alt="Coinbound-Product-10-300x300"/></a>
         </div>
         <div class="col-lg-2 col-md-4 col-6">
             <a href="https://www.google.com"><img src="./img/partners/logolar/coincalcalculator.png" rel="noreferrer" class="img-fluid" alt="coincalcalculator" /></a>
